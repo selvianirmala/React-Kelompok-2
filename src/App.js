@@ -3,12 +3,14 @@ import './App.css';
 import Header from './pages/Header';
 import NavBar from './pages/NavBar';
 import React from 'react';
+import SectionFive from './pages/SectionFive';
 
 function App() {
   return (
     <>
       <NavBar />
       <Header />
+      <SectionFive/>
     </>
   );
 
