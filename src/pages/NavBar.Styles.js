@@ -14,20 +14,12 @@ const Styles = {
             transition: "all .4s"
         }
     },
-<<<<<<< HEAD
-    menu: {
-=======
     activeMenu: {
->>>>>>> footer
         fontFamily: 'Lato',
         fontStyle: "normal",
         fontWeight: 700,
         fontSize: 18,
         lineHeight: 22,
-<<<<<<< HEAD
-        color: "white",
-        margin: "0 15px",
-=======
         borderBottom: "2px solid white",
         textDecoration: "none",
         paddingBottom: 7.5,
@@ -41,7 +33,6 @@ const Styles = {
         lineHeight: 22,
         color: "rgba(255, 255, 255, 0.7)",
         marginLeft: 60,
->>>>>>> footer
         textDecoration: "none"
     },
     searchIcon: {

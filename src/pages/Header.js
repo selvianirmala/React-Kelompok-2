@@ -8,10 +8,6 @@ import IconLink from "../components/IconLink"
 import styles from "./Header.styles"
 
 const ICON_PROPS = [
-<<<<<<< HEAD
-    { src: sosmedText, href:"#"},
-=======
->>>>>>> footer
     { src: facebookIcon, href:"https://facebook.com"},
     { src: instagramIcon, href:"https://instagram.com"},
     { src: twitterIcon, href:"https://twitter.com"},
@@ -38,10 +34,7 @@ const Header = () => {
                 </div>
 
                 <div style={styles.rightSection}>
-<<<<<<< HEAD
-=======
                     <img src={sosmedText}></img>
->>>>>>> footer
                     {
                         ICON_PROPS.map((item, idx) => (
                             <IconLink 
