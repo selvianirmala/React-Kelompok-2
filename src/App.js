@@ -2,7 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './pages/Header';
 import NavBar from './pages/NavBar';
+<<<<<<< HEAD
 import Content1 from './pages/content1/Content1';
+=======
+>>>>>>> 78f5058f58840b98b7f22d77b4cbe92e6521ce2b
 import React from 'react';
 
 function App() {
