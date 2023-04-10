@@ -3,6 +3,7 @@ import './App.css';
 import Header from './pages/Header';
 import NavBar from './pages/NavBar';
 import Content1 from './pages/content1/Content1';
+import Footer from './pages/Footer';
 import React from 'react';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <NavBar />
       <Header />
       <Content1 />
+      <Footer />
     </>
   );
 

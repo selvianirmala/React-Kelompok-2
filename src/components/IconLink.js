@@ -1,6 +1,11 @@
 const styles = {
     space: {
+<<<<<<< HEAD
         marginBottom: "20px"
+=======
+        marginTop: "34px",
+        width: 32
+>>>>>>> footer
     }
 }
 
