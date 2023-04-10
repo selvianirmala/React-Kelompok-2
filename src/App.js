@@ -5,6 +5,7 @@ import NavBar from './pages/NavBar';
 import Content1 from './pages/content1/Content1';
 import Footer from './pages/Footer';
 import React from 'react';
+import SectionFive from './pages/SectionFive';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <Header />
       <Content1 />
+      <SectionFive/>
       <Footer />
     </>
   );
