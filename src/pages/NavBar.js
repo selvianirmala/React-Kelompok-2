@@ -4,7 +4,6 @@ import styles from "./NavBar.Styles"
 import React from "react"
 
 const MENU = [
-    {href: "#", label: "Beranda"},
     {href: "#", label: "Tentang"},
     {href: "#", label: "Galeri"},
     {href: "#", label: "Blog"},
@@ -49,7 +48,7 @@ const NavBar = () => {
     }, [])
 
     React.useEffect(() => {
-        setBgColor(isScroll ? "#157599" : "transparent")
+        setBgColor(isScroll ? "#157599" : "rgb(21,117,153, 0.5")
     }, [isScroll])
 
     return(
@@ -59,10 +58,11 @@ const NavBar = () => {
             </div>
                 
             <div>
+                <a href="#" style={styles.activeMenu}>Beranda</a>
                 {MENU.map((item, idx) => {
                         return(
                             <a href={item.href}
-                                style={styles.menu}
+                                style={styles.inActiveMenu}
                                 key={idx}>
                                     {item.label}
                                 </a>

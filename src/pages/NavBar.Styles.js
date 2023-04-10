@@ -14,14 +14,25 @@ const Styles = {
             transition: "all .4s"
         }
     },
-    menu: {
+    activeMenu: {
         fontFamily: 'Lato',
         fontStyle: "normal",
         fontWeight: 700,
         fontSize: 18,
         lineHeight: 22,
-        color: "white",
-        margin: "0 15px",
+        borderBottom: "2px solid white",
+        textDecoration: "none",
+        paddingBottom: 7.5,
+        color: "white"
+    },
+    inActiveMenu: {
+        fontFamily: 'Lato',
+        fontStyle: "normal",
+        fontWeight: 700,
+        fontSize: 18,
+        lineHeight: 22,
+        color: "rgba(255, 255, 255, 0.7)",
+        marginLeft: 60,
         textDecoration: "none"
     },
     searchIcon: {
