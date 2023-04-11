@@ -125,42 +125,7 @@ const Content2 = () => {
                         </div>
                     )
                 })}
-
-                {/* <div style={styles.flexContainer}>
-                    <button style={{...styles.buttonTop, background: "#DA2525"}}>Pengumuman</button>
-
-                    <div style={styles.card}>
-                        <img src={img1} style={styles.img} />
-                        <p style={styles.textP}>Pemberhentian Air Mengalir Sementara Pada Daerah ...</p> 
-
-                        <button style={styles.buttonBottom}>Lebih Lanjut</button>
-                    </div>
-                </div>
-
-                <div style={styles.flexContainer}>
-                    <button style={{...styles.buttonTop, background: "#CCBC29"}}>Berita Terbaru</button>
-
-                    <div style={styles.card}>
-                        <img src={img2} style={styles.img} />
-                        <p style={styles.textP}>PDAM Purwa Tirta Dharma memberikan bantuan ...</p> 
-
-                        <button style={styles.buttonBottom}>Lebih Lanjut</button>
-                    </div>
-                </div>
-
-                <div style={styles.flexContainer}>
-                    <button style={{...styles.buttonTop, background: "#DA2525"}}>Pengumuman</button>
-
-                    <div style={styles.card}>
-                        <img src={img3} style={styles.img} />
-                        <p style={styles.textP}>Tarif per-Bulan Naik Menjadi 10% Dari Tarif Normal ...</p> 
-
-                        <button style={styles.buttonBottom}>Lebih Lanjut</button>
-                    </div>
-                </div> */}
-
-                {/* end card */}
-
+                
             </div>
         </div>
     )
