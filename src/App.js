@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './pages/Header';
 import NavBar from './pages/NavBar';
@@ -8,12 +7,15 @@ import Perjalanan from './pages/Perjalanan';
 import React from 'react';
 import SectionFive from './pages/SectionFive';
 
+import Content2 from './pages/content2/Content2';
+
 function App() {
   return (
     <>
       <NavBar />
       <Header />
       <Content1 />
+      <Content2 />
       <Perjalanan/>
       <SectionFive/>
       <Footer />
