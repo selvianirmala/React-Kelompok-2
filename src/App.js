@@ -4,6 +4,7 @@ import Header from './pages/Header';
 import NavBar from './pages/NavBar';
 import Content1 from './pages/content1/Content1';
 import Footer from './pages/Footer';
+import Perjalanan from './pages/Perjalanan';
 import React from 'react';
 import SectionFive from './pages/SectionFive';
 
@@ -13,6 +14,7 @@ function App() {
       <NavBar />
       <Header />
       <Content1 />
+      <Perjalanan/>
       <SectionFive/>
       <Footer />
     </>
