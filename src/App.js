@@ -1,14 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './pages/Header';
 import NavBar from './pages/NavBar';
 import React from 'react';
+
+import Content2 from './pages/content2/Content2';
 
 function App() {
   return (
     <>
       <NavBar />
       <Header />
+      <Content2 />
     </>
   );
 
