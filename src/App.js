@@ -2,6 +2,7 @@ import './App.css';
 import Header from './pages/Header';
 import NavBar from './pages/NavBar';
 import Content1 from './pages/content1/Content1';
+import Carousel from './pages/Carousel';
 import Footer from './pages/Footer';
 import Perjalanan from './pages/Perjalanan';
 import React from 'react';
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <Content1 />
       <Content2 />
+      <Carousel/>
       <Perjalanan/>
       <SectionFive/>
       <Footer />
